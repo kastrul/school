@@ -1,0 +1,7 @@
+1. /(a+|e)(a*|i*)x/
+2.
+   - 0 out: "f"
+   - 1 out: "ex"
+   - 2 out: ei ole inputti, millele vastaks ainult kaks outputti
+   - 2+ out: "aix"
+3.

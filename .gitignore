@@ -1,0 +1,7 @@
+pipedrive/
+.data/
+.idea/
+.ipynb_checkpoints/
+__pycache__/
+*.tex
+.venv/
