@@ -10,12 +10,13 @@ classdef dataset
     end
     
     methods
-        function obj = dataset(length)
-            obj.state = rng;
+        function obj = dataset(length, s)
+            obj.state = s;
             obj.len = length;
         end
         
         function obj = generate(obj)
+            rng(obj.state);
             obj.x = normrnd(3, 10, [obj.len, 10]);
             obj.y = ones(obj.len, 1);
             for i=1:obj.len

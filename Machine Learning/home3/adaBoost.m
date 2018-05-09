@@ -29,12 +29,12 @@ classdef adaBoost
         %% main training function
         function obj = trainModel(obj)
             w = ones(length(obj.y), 1)/length(obj.y);
-            alpha = @(err) log((1-err)/err);
+            eps = 10^-5;
+            alpha = @(err) log((1-err + eps)/(err + eps));
             for m=1:obj.M
                 obj.trees{m} = fitctree(obj.x, obj.y, 'Weights', w);
                 % Classification error
-                L = loss(obj.trees{m}, obj.x, obj.y,...
-                    'LossFun', 'classiferror');
+                L = loss(obj.trees{m}, obj.x, obj.y, 'LossFun', 'classiferror');
                 % Weight contribution calculation
                 
                 obj.a(m) = alpha(L);

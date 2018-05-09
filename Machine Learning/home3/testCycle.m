@@ -1,14 +1,17 @@
 clc
 clear
-
-load ovariancancer
-
-data = dataset(500);
+s = 10;
+data = dataset(1000, s);
 data = data.generate();
-xTrain = data.x(1:300,:);
-yTrain = data.y(1:300,:);
-xTest = data.x(301:500,:);
-yTest = data.y(301:500,:);
+len = length(data.x);
+% xTrain = data.x(1:floor(len * 3/4),:);
+% yTrain = data.y(1:floor(len * 3/4),:);
+% xTest = data.x(floor(len * 3/4):len,:);
+% yTest = data.y(floor(len * 3/4):len,:);
+xTrain = data.x();
+yTrain = data.y();
+xTest = data.x();
+yTest = data.y();
 
 wrongClasses = zeros(80,1);
 for i=1:80
