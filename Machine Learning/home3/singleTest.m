@@ -13,7 +13,7 @@ yTrain = data.y();
 xTest = data.x();
 yTest = data.y();
 
-bm = adaBoost(10);
+bm = adaBoost(25);
 bm = bm.fit(xTrain, yTrain);
 
 p = bm.predictArray(xTest);
