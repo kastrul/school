@@ -1,0 +1,62 @@
+\begin{thebibliography}{10}
+
+\bibitem{Overflow}
+Stack Overflow,
+\newblock ``Stacksample: 10\% of {S}tack {O}verflow {Q}\&{A},''
+  \url{https://www.kaggle.com/stackoverflow/stacksample}, 2016,
+\newblock [Online; accessed 04-June-2018].
+
+\bibitem{Blei2003}
+David~M. Blei, Andrew~Y. Ng, and Michael~I. Jordan,
+\newblock ``Latent dirichlet allocation,''
+\newblock {\em Journal of Machine Learning Research}, vol. 3, pp. 993--1022,
+  Jan. 2003.
+
+\bibitem{Brett2012}
+Megan~R. Brett,
+\newblock ``Topic modeling: A basic introduction,''
+\newblock {\em Journal of Digital Humanities}, vol. 2, no. 1, 2012.
+
+\bibitem{Rajaraman}
+Anand Rajaraman and Jeffrey~David Ullman,
+\newblock ``Data mining,''
+\newblock in {\em Mining of Massive Datasets}, pp. 1--17. Cambridge University
+  Press, 2011.
+
+\bibitem{Blei2010}
+David~M. Blei and Jon~D. McAuliffe,
+\newblock ``Supervised topic models,'' 2010.
+
+\bibitem{Deerwester1990}
+Scott Deerwester, Susan~T. Dumais, George~W. Furnas, Thomas~K. Landauer, and
+  Richard Harshman,
+\newblock ``Indexing by latent semantic analysis,''
+\newblock {\em Journal of the American Society for Information Science}, vol.
+  41, no. 6, pp. 391--407, sep 1990.
+
+\bibitem{Blei2012}
+David~M. Blei,
+\newblock ``Probabilistic topic models,''
+\newblock {\em Communications of the {ACM}}, vol. 55, no. 4, pp. 77, apr 2012.
+
+\bibitem{Wang2011}
+Chong Wang, John Paisley, and David Blei,
+\newblock ``Online variational inference for the hierarchical dirichlet
+  process,''
+\newblock in {\em Proceedings of the Fourteenth International Conference on
+  Artificial Intelligence and Statistics}, Geoffrey Gordon, David Dunson, and
+  Miroslav Dudík, Eds., Fort Lauderdale, FL, USA, 11--13 Apr 2011, vol.~15 of
+  {\em Proceedings of Machine Learning Research}, pp. 752--760, PMLR.
+
+\bibitem{Parikh2014}
+Revi Parikh,
+\newblock ``Garbage in, garbage out: How anomalies can wreck your data,'' 2014.
+
+\bibitem{Rehruvrek2010}
+Radim {\v R}eh{\r u}{\v r}ek and Petr Sojka,
+\newblock ``{Software Framework for Topic Modelling with Large Corpora},''
+\newblock in {\em {Proceedings of the LREC 2010 Workshop on New Challenges for
+  NLP Frameworks}}, Valletta, Malta, May 2010, pp. 45--50, ELRA,
+\newblock \url{http://is.muni.cz/publication/884893/en}.
+
+\end{thebibliography}

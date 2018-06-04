@@ -1,0 +1,6 @@
+IPython
+ipywidgets
+torch
+gensim
+nltk
+pandas
